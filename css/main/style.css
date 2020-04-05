@@ -18,6 +18,17 @@
   border-radius: 15px 15px 0 0;
 }
 
+.meinCard {
+  border-radius: 15px;
+}
+
+.meinCard.meinCard:hover {
+  -webkit-box-shadow: 0 0 10px 0 grey;
+          box-shadow: 0 0 10px 0 grey;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
 .pull-right {
   display: -webkit-box;
   display: -ms-flexbox;
